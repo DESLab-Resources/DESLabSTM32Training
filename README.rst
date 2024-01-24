@@ -4,6 +4,14 @@ DESLab STM32 Training
 Versioning
 ==========
 
+0.1.0
+-----
+``24-01-2024``
+
+- Make outline of the Training.
+    - Introduction
+    - Contents
+
 0.0.2
 -----
 ``24-01-2024``

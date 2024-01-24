@@ -8,12 +8,12 @@ Welcome to DESLab STM32 Training's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents
 
+   introduction
+   content/basic-and-install
+   content/sys-peripherals
+   content/communication-peripherals
+   content/analog-peripherals
+   content/timer-timer-interrupt
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
