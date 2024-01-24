@@ -1,0 +1,7 @@
+{
+  "esbonio.sphinx.confDir": "${workspaceFolder}/source",
+  "esbonio.sphinx.buildDir": "${workspaceFolder}/build",
+  "esbonio.sphinx.srcDir": "${workspaceFolder}/source",
+  "restructuredtext.linter.doc8.executablePath": "/home/desiot/.local/bin/doc8",
+  "restructuredtext.linter.rstcheck.executablePath": "/home/desiot/.local/bin/rstchec"
+}
