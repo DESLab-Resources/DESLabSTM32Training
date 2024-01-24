@@ -4,6 +4,14 @@ DESLab STM32 Training
 Versioning
 ==========
 
+0.0.2
+-----
+``24-01-2024``
+
+- Add *.readthedocs.yaml* and update *source/conf.py*, *source/requirements.txt*
+    - From: https://github.com/ngminhthanh12a3/DESLabIoTGuidance/blob/main/.readthedocs.yaml
+    - No vietnamese latex
+
 0.0.1
 -----
 ``24-01-2024``
