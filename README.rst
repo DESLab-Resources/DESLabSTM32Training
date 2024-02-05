@@ -4,6 +4,25 @@ DESLab STM32 Training
 Versioning
 ==========
 
+0.2.0
+``04-02-2024``
+
+- Compose Introduction, "create_bare_metal_project" and "debugging_sample_code" appendix, and GPIO, Clock Config Content.
+  - Introduction:
+    - Training Context
+    - Training Board
+  - GPIO Config
+    - Input/Output
+  - Clock config (F4).
+  - appendix
+    -  create_bare_metal_project
+    -  debugging_sample_code
+- source/conf.py:
+    - config numref enable
+
+- Glossary and abbreviation bug
+
+
 0.1.0
 -----
 ``24-01-2024``

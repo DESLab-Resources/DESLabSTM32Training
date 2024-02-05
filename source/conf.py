@@ -23,6 +23,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.autosectionlabel'
 ]
 
 templates_path = ['_templates']
@@ -39,3 +40,11 @@ html_theme = "sphinx_rtd_theme"
 epub_show_urls = 'footnote'
 
 html_static_path = ['_static']
+
+pygments_style = 'sphinx'
+numfig = True
+numfig_format = {
+    'code-block': 'Code Block %s'
+}
+autosectionlabel_prefix_document = True
+autosectionlabel_maxdepth = True
