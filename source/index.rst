@@ -12,6 +12,7 @@ Welcome to DESLab STM32 Training's documentation!
 
    introduction
    content/gpio_configurations
+   content/clock_configurations_f1
    content/clock_configurations
 
    .. content/basic-and-install
@@ -27,4 +28,4 @@ Welcome to DESLab STM32 Training's documentation!
    appendix/create_bare_metal_project
    appendix/debugging_sample_code
    content/gpio_configurations
-   content/clock_configurations
+   content/clock_configurations_f1

@@ -9,7 +9,7 @@ Sample Code
 -----------
 
 .. code-block:: c
-
+   
     // Src\main.c
 
     /**

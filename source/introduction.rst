@@ -40,5 +40,5 @@ Acknowledgement
 
 .. glossary::
 
-  MCU
-    Micro Controller Unit
+   MCU
+      Micro Controller Unit

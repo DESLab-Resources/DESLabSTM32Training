@@ -7,5 +7,10 @@
   "restructuredtext.linter.doc8.extraArgs": ["--ignore D001"],
   "restructuredtext.preview.scrollEditorWithPreview": false,
   "restructuredtext.preview.scrollPreviewWithEditor": false,
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+
+  // https://stackoverflow.com/questions/29972396/how-can-i-customize-the-tab-to-space-conversion-factor
+  "editor.tabSize": 3,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false
 }

@@ -1,5 +1,5 @@
-Clock Configuration
-===================
+Clock Configuration For STM32F4
+===============================
 
 Implementation Device: `Discovery kit with STM32F411VE MCU <https://www.st.com/en/evaluation-tools/32f411ediscovery.html>`_.
 

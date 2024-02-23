@@ -4,7 +4,16 @@ DESLab STM32 Training
 Versioning
 ==========
 
+0.3.0
+``````
+
+``23-02-2024``
+
+- Compose W1 Clock Configuration for F1.
+
 0.2.0
+`````
+
 ``04-02-2024``
 
 - Compose Introduction, "create_bare_metal_project" and "debugging_sample_code" appendix, and GPIO, Clock Config Content.
@@ -25,6 +34,7 @@ Versioning
 
 0.1.0
 -----
+
 ``24-01-2024``
 
 - Make outline of the Training.
@@ -33,6 +43,7 @@ Versioning
 
 0.0.2
 -----
+
 ``24-01-2024``
 
 - Add *.readthedocs.yaml* and update *source/conf.py*, *source/requirements.txt*
@@ -41,6 +52,7 @@ Versioning
 
 0.0.1
 -----
+
 ``24-01-2024``
 
 - Add *.readthedocs.yaml* and update *source/conf.py*, *source/requirements.txt*
@@ -48,6 +60,7 @@ Versioning
 
 0.0.0
 -----
+
 ``24-01-2024``
 
 - First setup
