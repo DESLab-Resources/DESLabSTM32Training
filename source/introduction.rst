@@ -22,6 +22,32 @@ Training Peripherals:
 
     Grape32 Unleashed Kit (Source: `Grape32 Unleashed Kit – Grapestore (grapetech.vn) <UnleashedKit_>`_)
 
+Expected Training Module
+------------------------
+
+- Week 1 (Completed)
+
+   - GPIO Configuration
+   - Clock Configuration
+
+- Week 2 (In progress)
+
+   - EXTI
+   - UART
+
+- Week 3
+
+   - Analog
+   - Timer
+
+- Week 4: Optional.
+
+Training Schedule
+-----------------
+
+- Timeline: from 10/03/2024 to 31/03/2024
+- Training date: Sunday.
+
 Device References
 -----------------
 

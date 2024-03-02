@@ -4,6 +4,11 @@ DESLab STM32 Training
 Versioning
 ==========
 
+0.3.1
+``02-03-2024``
+
+- First announcement.
+
 0.3.0
 ``````
 
