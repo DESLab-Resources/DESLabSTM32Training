@@ -46,7 +46,12 @@ Training Schedule
 -----------------
 
 - Timeline: from 10/03/2024 to 31/03/2024
-- Training date: Sunday.
+- Training date: Sunday, from 1pm to 4pm.
+
+Training Resource
+-----------------
+
+GitHub: https://github.com/ngminhthanh12a3/DESLabSTM32TrainingSource/tree/main
 
 Device References
 -----------------

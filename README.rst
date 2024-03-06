@@ -4,6 +4,11 @@ DESLab STM32 Training
 Versioning
 ==========
 
+0.4.1
+``06-03-2024``
+
+- GitHub Resource's Introduction
+
 0.4.0
 ``06-03-2024``
 
