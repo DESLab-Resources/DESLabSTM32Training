@@ -8,12 +8,13 @@ Welcome to DESLab STM32 Training's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Main Contents
+   :caption: Contents
 
    introduction
    content/gpio_configurations
    content/clock_configurations_f1
-   content/clock_configurations
+   content/exti
+   content/timer
 
    .. content/basic-and-install
    .. content/sys-peripherals
@@ -23,9 +24,8 @@ Welcome to DESLab STM32 Training's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Week 1
+   :caption: Appendix
 
    appendix/create_bare_metal_project
    appendix/debugging_sample_code
-   content/gpio_configurations
-   content/clock_configurations_f1
+   appendix/clock_configurations

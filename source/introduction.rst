@@ -33,12 +33,12 @@ Expected Training Module
 - Week 2 (In progress)
 
    - EXTI
-   - UART
+   - Timer
 
 - Week 3
 
+   - UART
    - Analog
-   - Timer
 
 - Week 4: Optional.
 

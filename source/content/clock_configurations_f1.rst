@@ -389,7 +389,7 @@ Base on the **HAL_RCC_ClockConfig** function's **SYSCLK Configuration** section,
    RCC->CFGR &= ~(1 << 0); // PLL selected as system clock
    RCC->CFGR |= (1 << 1);
 
-   while( ( ( RCC->CFGR & (0b11 << 2) ) >> 2 ) != (0b10) ) // Bits 3:2 SWS: System clock switch status
+   while( ( ( RCC->CFGR & (0b11 << 2) ) >> 2 ) != (0b10) ); // Bits 3:2 SWS: System clock switch status
 
 PCLK1 and PCLK2 Configuration
 `````````````````````````````
@@ -426,11 +426,11 @@ Base on the **HAL_RCC_ClockConfig** function's **PCLKx Configuration** sections,
    //
    // PCLK1 Configuration
    // Bits 10:8 PPRE1: APB low-speed prescaler (APB1)
-   RCC->CFGR &= (0b111 << 8); // HCLK not divided
+   RCC->CFGR &= ~(0b111 << 8); // HCLK not divided
 
    // PCLK2 Configuration
    // Bits 13:11 PPRE2: APB high-speed prescaler (APB2)
-   RCC->CFGR &= (0b111 << 11); // HCLK not divided
+   RCC->CFGR &= ~(0b111 << 11); // HCLK not divided
 
 Full Implementation Source
 --------------------------
@@ -449,8 +449,8 @@ Full Implementation Source
       FLASH->ACR |= (1 << 4); // Prefetch is enabled
 
       /** Initializes the RCC Oscillators according to the specified parameters
-      * in the RCC_OscInitTypeDef structure.
-      */
+         * in the RCC_OscInitTypeDef structure.
+         */
       //
       // HSE Configuration
       // Bit 16 HSEON: HSE clock enable
@@ -488,12 +488,16 @@ Full Implementation Source
       // Bit 25 PLLRDY: PLL clock ready flag
       while(!(RCC->CR & (1 << 25)));
 
+      //
+      // Bits 2:0 LATENCY: Latency
+      FLASH->ACR &= ~(0b111 << 0); // Zero wait state, if 0 < SYSCLK <= 24 MHz
+
       /** Initializes the CPU, AHB and APB buses clocks
-      */
+         */
       //
       // HCLK Configuration
       /* Set the highest APBx dividers in order to ensure that we do not go through
-         5     a non-spec phase whatever we decrease or increase HCLK. */
+            5     a non-spec phase whatever we decrease or increase HCLK. */
       // Bits 10:8 PPRE1: APB low-speed prescaler (APB1)
       RCC->CFGR |= (0b111 << 8); // HCLK divided by 16
       // Bits 13:11 PPRE2: APB high-speed prescaler (APB2)
@@ -514,16 +518,16 @@ Full Implementation Source
       RCC->CFGR &= ~(1 << 0); // PLL selected as system clock
       RCC->CFGR |= (1 << 1);
 
-      while( ( ( RCC->CFGR & (0b11 << 2) ) >> 2 ) != (0b10) ) // Bits 3:2 SWS: System clock switch status
+      while( ( ( RCC->CFGR & (0b11 << 2) ) >> 2 ) != (0b10) ); // Bits 3:2 SWS: System clock switch status
 
       //
       // PCLK1 Configuration
       // Bits 10:8 PPRE1: APB low-speed prescaler (APB1)
-      RCC->CFGR &= (0b111 << 8); // HCLK not divided
+      RCC->CFGR &= ~(0b111 << 8); // HCLK not divided
 
       // PCLK2 Configuration
       // Bits 13:11 PPRE2: APB high-speed prescaler (APB2)
-      RCC->CFGR &= (0b111 << 11); // HCLK not divided
+      RCC->CFGR &= ~(0b111 << 11); // HCLK not divided
 
       /* Loop forever */
       for(;;);

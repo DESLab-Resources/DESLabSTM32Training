@@ -4,6 +4,12 @@ DESLab STM32 Training
 Versioning
 ==========
 
+0.4.0
+``06-03-2024``
+
+- Compose W2's materials.
+- Fix Flash Latency of F1 clock configuration (W1).
+
 0.3.1
 ``02-03-2024``
 
