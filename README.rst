@@ -4,18 +4,27 @@ DESLab STM32 Training
 Versioning
 ==========
 
+0.5.0
+
+``08-03-2024``
+
+- W1's Activity
+
 0.4.1
+
 ``06-03-2024``
 
 - GitHub Resource's Introduction
 
 0.4.0
+
 ``06-03-2024``
 
 - Compose W2's materials.
 - Fix Flash Latency of F1 clock configuration (W1).
 
 0.3.1
+
 ``02-03-2024``
 
 - First announcement.
@@ -34,8 +43,10 @@ Versioning
 
 - Compose Introduction, "create_bare_metal_project" and "debugging_sample_code" appendix, and GPIO, Clock Config Content.
   - Introduction:
+
     - Training Context
     - Training Board
+
   - GPIO Config
     - Input/Output
   - Clock config (F4).

@@ -16,11 +16,11 @@ Welcome to DESLab STM32 Training's documentation!
    content/exti
    content/timer
 
-   .. content/basic-and-install
-   .. content/sys-peripherals
-   .. content/communication-peripherals
-   .. content/analog-peripherals
-   .. content/timer-timer-interrupt
+.. toctree::
+   :maxdepth: 2
+   :caption: Activities
+
+   activity/gpio
 
 .. toctree::
    :maxdepth: 2
