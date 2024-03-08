@@ -24,6 +24,12 @@ Welcome to DESLab STM32 Training's documentation!
 
 .. toctree::
    :maxdepth: 2
+   :caption: Development
+
+   development/github_codespaces
+
+.. toctree::
+   :maxdepth: 2
    :caption: Appendix
 
    appendix/create_bare_metal_project
