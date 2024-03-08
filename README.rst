@@ -4,6 +4,12 @@ DESLab STM32 Training
 Versioning
 ==========
 
+0.6.0
+
+``08-03-2024``
+
+- Codespaces Development.
+
 0.5.0
 
 ``08-03-2024``
