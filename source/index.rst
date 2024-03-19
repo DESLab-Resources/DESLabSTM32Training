@@ -24,6 +24,12 @@ Welcome to DESLab STM32 Training's documentation!
 
 .. toctree::
    :maxdepth: 2
+   :caption: Extension
+
+   extension/clock_systick
+
+.. toctree::
+   :maxdepth: 2
    :caption: Development
 
    development/github_codespaces
