@@ -22,6 +22,7 @@ Welcome to DESLab STM32 Training's documentation!
 
    activity/gpio
    activity/interrupt
+   activity/timer
 
 .. toctree::
    :maxdepth: 2

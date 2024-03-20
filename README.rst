@@ -11,6 +11,7 @@ Versioning
 
 - Timer Interrupt
 - Activity for Interrupt
+- Activity for Timer
 
 0.6.0
 `````
