@@ -27,6 +27,7 @@ Welcome to DESLab STM32 Training's documentation!
    :caption: Extension
 
    extension/clock_systick
+   extension/timer_interrupt
 
 .. toctree::
    :maxdepth: 2
