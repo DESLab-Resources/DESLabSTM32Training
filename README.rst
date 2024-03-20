@@ -10,6 +10,7 @@ Versioning
 ``20-03-2024``
 
 - Timer Interrupt
+- Activity for Interrupt
 
 0.6.0
 `````
