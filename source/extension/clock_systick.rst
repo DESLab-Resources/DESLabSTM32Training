@@ -35,8 +35,21 @@ Configure SysTick reload value register (STK_LOAD)
    // Bits 23:0 RELOAD[23:0]: RELOAD value
    SysTick->LOAD = 9000000-1; /* STRELOAD = (72,000,000/8)-1 */
 
-Setup **SysTick_Handler**
--------------------------
+Option 1: Create a delay from System Clock
+------------------------------------------
+
+.. code-block:: c
+
+   void delay()
+   {
+      SysTick->LOAD = 9000000-1;
+      SysTick->CTRL = 0x01;
+      while((SysTick->CTRL&(1<<16)) == 0);
+      SysTick->CTRL = 0x00;
+   }
+
+Option 2: Setup **SysTick_Handler**
+-----------------------------------
 
 .. code-block:: c
 
