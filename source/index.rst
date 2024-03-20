@@ -21,6 +21,7 @@ Welcome to DESLab STM32 Training's documentation!
    :caption: Activities
 
    activity/gpio
+   activity/interrupt
 
 .. toctree::
    :maxdepth: 2
