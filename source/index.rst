@@ -15,6 +15,7 @@ Welcome to DESLab STM32 Training's documentation!
    content/clock_configurations_f1
    content/exti
    content/timer
+   content/usart
 
 .. toctree::
    :maxdepth: 2
