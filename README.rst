@@ -4,6 +4,14 @@ DESLab STM32 Training
 Versioning
 ==========
 
+0.8.0
+`````
+
+``21-03-2024``
+
+- USART & Interrupt
+- ADC & ADC Interrupt
+
 0.7.0
 `````
 
