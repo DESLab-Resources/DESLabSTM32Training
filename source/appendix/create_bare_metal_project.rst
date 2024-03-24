@@ -3,6 +3,14 @@
 Create an STM32 Bare Metal Project
 ==================================
 
+Chip Select
+-----------
+
+Use the chip **STM32F103RCT6**.
+
+.. figure:: ../pics/W2_24-03-2024_9-22-57.png
+    :align: center
+
 Create an HAL project
 ---------------------
 
@@ -13,16 +21,20 @@ Create an Bare Metal Project
 ----------------------------
 
 .. figure:: ../pics/Screenshot_2024-02-03_121948.png
-    :align: center
+   :align: center
 
 Create the *Drivers* folder
 ```````````````````````````
 
 .. figure:: ../pics/Screenshot_2024-02-03_134825.png
-    :align: center
+   :align: center
+
+   Create Folder Wizard. (:code:`Click on the Project -> New -> Folder` )
 
 .. figure:: ../pics/Screenshot_2024-02-03_135044.png
-    :align: center
+   :align: center
+
+   Create the **Drivers** Folder
 
 Copy the *CMSIS* folder from the HAL project to the Bare Metal Project
 ``````````````````````````````````````````````````````````````````````
@@ -36,8 +48,8 @@ Copy the *system_stm32f1xx.c* file from the HAL project to the Bare Metal Projec
 .. figure:: ../pics/Screenshot_2024-02-03_140149.png
     :align: center
 
-Config the *Debugging* and *MCU Post build outputs* in the Project Properties
-`````````````````````````````````````````````````````````````````````````````
+[Optional] Config the *Debugging* and *MCU Post build outputs* in the Project Properties
+`````````````````````````````````````````````````````````````````````````````````````````````
 
 - ``C/C++ Build -> Settings -> MCU Post build outputs -> Convert to Intel Hex file (-O hex)``
 
