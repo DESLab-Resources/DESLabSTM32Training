@@ -9,7 +9,7 @@ Sample Code
 -----------
 
 .. code-block:: c
-   
+
     // Src\main.c
 
     /**
@@ -78,4 +78,10 @@ Debugger Configurations of the Training Board
 ---------------------------------------------
 
 .. figure:: ../pics/Screenshot_2024-02-05_153239.png
+    :align: center
+
+Cable Connection
+----------------
+
+.. figure:: ../pics/W2_24-03-2024_9-39-31.png
     :align: center

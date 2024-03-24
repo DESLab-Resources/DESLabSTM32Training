@@ -275,6 +275,17 @@ Based on the **HAL_RCC_OscConfig**'s **PLL Configuration** section, we configure
    // Bit 25 PLLRDY: PLL clock ready flag
    while(!(RCC->CR & (1 << 25)));
 
+Flash Latency
+`````````````
+
+.. figure:: ../pics/W2_24-03-2024_9-49-10.png
+   :align: center
+
+.. code-block:: c
+
+   // Bits 2:0 LATENCY: Latency
+   FLASH->ACR &= ~(0b111 << 0); // Zero wait state, if 0 < SYSCLK <= 24 MHz
+
 1. Initializes the CPU, AHB and APB buses clocks
 ------------------------------------------------
 
@@ -363,7 +374,7 @@ Base on the **HAL_RCC_ClockConfig** function's **SYSCLK Configuration** section,
             __HAL_RCC_SYSCLK_CONFIG(RCC_ClkInitStruct->SYSCLKSource);
             /* Get Start Tick */
             tickstart =HAL_GetTick();
-      
+
             while(__HAL_RCC_GET_SYSCLK_SOURCE() != (RCC_ClkInitStruct->SYSCLKSource <<RCC_CFGR_SWS_Pos))
             {
                   if((HAL_GetTick() -tickstart) >CLOCKSWITCH_TIMEOUT_VALUE)
